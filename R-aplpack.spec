@@ -2,15 +2,17 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.2.3
+Version:          1.2.4
 Release:          1
 Summary:          Another Plot PACKage: stem.leaf, bagplot, faces, spin3R, and some slider functions
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/Archive/%{packname}/%{packname}_%{version}.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/%{packname}_%{version}.tar.gz
 Requires:         R-tcltk 
+Requires:         R-tkrplot 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-tcltk
+BuildRequires:    R-tkrplot 
 %rename R-cran-aplpack
 
 %description
