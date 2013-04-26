@@ -1,6 +1,8 @@
 %global packname  aplpack
 %global rlibdir  %{_libdir}/R/library
 
+%define debug_package %{nil}
+
 Name:             R-%{packname}
 Version:          1.2.7
 Release:          1
