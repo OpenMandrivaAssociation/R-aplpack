@@ -49,7 +49,7 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/Meta
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
-%{rlibdir}/%{packname}/pdf
+# %{rlibdir}/%{packname}/pdf
 %{rlibdir}/%{packname}/src
 
 
