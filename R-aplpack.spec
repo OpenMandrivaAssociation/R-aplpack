@@ -4,13 +4,13 @@
 %define debug_package %{nil}
 
 Name:             R-%{packname}
-Version:          1.2.7
-Release:          2
+Version:          1.2.9
+Release:          1
 Summary:          Another Plot PACKage: stem.leaf, bagplot, faces, spin3R, slider functions
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/aplpack_1.2.7.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/aplpack_1.2.9.tar.gz
 Requires:         R-tcltk 
 Requires:         R-tkrplot 
 BuildRequires:    R-devel
@@ -86,5 +86,6 @@ rm -f %{buildroot}%{rlibdir}/R.css
 - fix Url
 - add source and spec file
 - Created package structure for R-cran-aplpack.
+
 
 
