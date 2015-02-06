@@ -5,7 +5,7 @@
 
 Name:             R-%{packname}
 Version:          1.2.9
-Release:          1
+Release:          2
 Summary:          Another Plot PACKage: stem.leaf, bagplot, faces, spin3R, slider functions
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
